@@ -1,0 +1,29 @@
+.cabecalho {
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgba(148,188,233,1);
+text-align: center;
+}
+.link {
+color: rgba(148,188,233,1);
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.car {
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background: rgb(174,238,200);
+background: radial-gradient(circle, rgba(174,238,200,1) 0%, rgba(148,188,233,1) 100%);
+margin: 10px;
+padding: 20px;
+}
+
+a:link, a:visited {
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+  a:hover, a:active {
+    background-color:  rgb(174,238,200);
+}
